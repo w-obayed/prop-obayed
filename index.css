@@ -733,6 +733,9 @@ footer {
   .guarantees-grid {
     grid-template-columns: 1fr;
   }
+   .services-card {
+    max-width: 350px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
