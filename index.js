@@ -37,3 +37,24 @@ const navLinks = document.querySelector(".nav-links");
 mobileMenuBtn.addEventListener("click", () => {
   navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
 });
+
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+  cardsEffect: {
+    rotate: true,
+    slideShadows: true,
+  },
+});
+
+const glow = document.querySelector(".glow");
+let t = 0;
+
+function animate() {
+  t += 0.01;
+  const y = Math.sin(t) * 8;
+  glow.style.transform = `translateX(-50%) translateY(${y}px)`;
+  requestAnimationFrame(animate);
+}
+
+animate();
