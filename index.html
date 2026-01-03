@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>From Product to Revenue — Faster</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!-- Navigation -->
@@ -37,7 +45,6 @@
           <a href="#process" class="btn-secondary">See How It Works →</a>
         </div>
       </div>
-      <div class="curved"></div>
     </section>
 
     <!-- Problem Section -->
@@ -74,68 +81,262 @@
       <div class="section-header">
         <h2>Our Services</h2>
       </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <div class="service-icon">🎯</div>
-          <h3>Go-To-Market (GTM) Strategy</h3>
-          <ul>
-            <li>ICP & positioning</li>
-            <li>Messaging & offer design</li>
-            <li>Launch & acquisition planning</li>
-            <li>Sales funnel setup</li>
-          </ul>
-          <div class="outcome">
-            Outcome: Clear path from product → customers
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="services-card">
+              <div class="header">
+                <div class="badge">
+                  <div class="badge-icon">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <span class="badge-text">Awaiting Documents</span>
+                </div>
+
+                <h2 class="title">Go-To-Market (GTM) Strategy</h2>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">ICP &amp; positioning</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">Messaging &amp; offer design</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <div class="timeline-title">
+                    Launch &amp; acquisition planning
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <div class="timeline-title">Sales funnel setup</div>
+                </div>
+              </div>
+
+              <div class="outcome">
+                <div class="outcome-label">Outcome:</div>
+                <div class="outcome-text">
+                  Clear path from product → customers
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="swiper-slide">
+            <div class="services-card">
+              <div class="header">
+                <div class="badge">
+                  <div class="badge-icon">
+                    <i class="fa-solid fa-robot"></i>
+                  </div>
+                  <span class="badge-text">Awaiting Documents</span>
+                </div>
 
-        <div class="service-card">
-          <div class="service-icon">🤖</div>
-          <h3>AI Agents & Automation</h3>
-          <ul>
-            <li>AI chat agents (sales, support, onboarding)</li>
-            <li>Workflow automation (leads, CRM, ops)</li>
-            <li>Internal productivity agents</li>
-            <li>Custom AI logic for your product</li>
-          </ul>
-          <div class="outcome">Outcome: Less manual work. More scale.</div>
-        </div>
+                <h2 class="title">AI Agents & Automation</h2>
+              </div>
 
-        <div class="service-card">
-          <div class="service-icon">☁️</div>
-          <h3>Cloud-Based Applications</h3>
-          <ul>
-            <li>Custom CRM systems</li>
-            <li>Role-based dashboards</li>
-            <li>Internal tools & admin panels</li>
-            <li>Scalable cloud architecture</li>
-          </ul>
-          <div class="outcome">
-            Outcome: Systems built for growth, not spreadsheets.
+              <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">
+                    AI chat agents (sales, support, onboarding)
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">
+                    Workflow automation (leads, CRM, ops)
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <div class="timeline-title">Internal productivity agents</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <div class="timeline-title">
+                    Custom AI logic for your product
+                  </div>
+                </div>
+              </div>
+
+              <div class="outcome">
+                <div class="outcome-label">Outcome:</div>
+                <div class="outcome-text">Less manual work. More scale.</div>
+              </div>
+            </div>
           </div>
-        </div>
+          <div class="swiper-slide">
+            <div class="services-card">
+              <div class="header">
+                <div class="badge">
+                  <div class="badge-icon">
+                    <i class="fa-solid fa-cloud"></i>
+                  </div>
+                  <span class="badge-text">Awaiting Documents</span>
+                </div>
 
-        <div class="service-card">
-          <div class="service-icon">🌐</div>
-          <h3>Web & Landing Pages</h3>
-          <ul>
-            <li>Conversion-focused landing pages</li>
-            <li>Product websites</li>
-            <li>Lead capture & analytics setup</li>
-          </ul>
-          <div class="outcome">Outcome: Traffic turns into leads.</div>
-        </div>
+                <h2 class="title">Cloud-Based Applications</h2>
+              </div>
 
-        <div class="service-card">
-          <div class="service-icon">📱</div>
-          <h3>Mobile Applications</h3>
-          <ul>
-            <li>iOS & Android apps</li>
-            <li>User onboarding flows</li>
-            <li>API-first architecture</li>
-          </ul>
-          <div class="outcome">
-            Outcome: Your product everywhere your users are.
+              <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">Custom CRM systems</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">Role-based dashboards</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <div class="timeline-title">
+                    Internal tools & admin panels
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <div class="timeline-title">Scalable cloud architecture</div>
+                </div>
+              </div>
+
+              <div class="outcome">
+                <div class="outcome-label">Outcome:</div>
+                <div class="outcome-text">
+                  Systems built for growth, not spreadsheets.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="services-card">
+              <div class="header">
+                <div class="badge">
+                  <div class="badge-icon">
+                    <i class="fa-brands fa-square-web-awesome"></i>
+                  </div>
+                  <span class="badge-text">Awaiting Documents</span>
+                </div>
+
+                <h2 class="title">Web & Landing Pages</h2>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">
+                    Conversion-focused landing pages
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">Product websites</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <div class="timeline-title">
+                    Lead capture & analytics setup
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <div class="timeline-title">By using A/B testing</div>
+                </div>
+              </div>
+
+              <div class="outcome">
+                <div class="outcome-label">Outcome:</div>
+                <div class="outcome-text">Traffic turns into leads.</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="services-card">
+              <div class="header">
+                <div class="badge">
+                  <div class="badge-icon">
+                    <i class="fa-solid fa-mobile"></i>
+                  </div>
+                  <span class="badge-text">Awaiting Documents</span>
+                </div>
+
+                <h2 class="title">Mobile Applications</h2>
+              </div>
+
+              <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">iOS & Android apps</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-check"></i>
+                  </div>
+                  <div class="timeline-title">User onboarding flows</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-file"></i>
+                  </div>
+                  <div class="timeline-title">API-first architecture</div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-icon completed">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <div class="timeline-title">Cross-Platform Foundations</div>
+                </div>
+              </div>
+
+              <div class="outcome">
+                <div class="outcome-label">Outcome:</div>
+                <div class="outcome-text">
+                  Your product everywhere your users are.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -143,75 +344,61 @@
 
     <!-- Process Section -->
     <section class="process" id="process">
-      <div class="section-header">
-        <h2>How It Works</h2>
+      <div class="header">
+        <h1>How It Works</h1>
+        <p>
+          One streamlined process that delivers clarity, speed, and measurable
+          progress for your business.
+        </p>
       </div>
-      <div class="process-steps">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <h3>Strategy</h3>
-          <p style="color: var(--light-gray); margin-bottom: 1rem">
-            We align on:
-          </p>
-          <ul>
-            <li>• Business goals</li>
-            <li>• Target users</li>
-            <li>• Revenue model</li>
-          </ul>
+
+      <div class="cards-wrapper">
+        <div class="card">
+          <div class="card-decoration"></div>
+          <div>
+            <h2 class="card-title">Strategy</h2>
+            <p class="card-description">
+              We align your product, target market, and revenue model so every
+              build and marketing decision supports real growth.
+            </p>
+          </div>
+          <div class="card-slider">
+            <div class="slider-bar filled"></div>
+          </div>
         </div>
 
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <h3>Build</h3>
-          <p style="color: var(--light-gray); margin-bottom: 1rem">
-            We execute:
-          </p>
-          <ul>
-            <li>• Product</li>
-            <li>• AI & automation</li>
-            <li>• Infrastructure</li>
-          </ul>
+        <div class="card">
+          <div class="card-decoration"></div>
+          <h2 class="card-title">Strategy</h2>
         </div>
 
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <h3>Launch & Optimize</h3>
-          <p style="color: var(--light-gray); margin-bottom: 1rem">
-            We support:
-          </p>
-          <ul>
-            <li>• Go-to-market</li>
-            <li>• Feedback loops</li>
-            <li>• Iteration</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Who For Section -->
-    <section class="who-for" id="about">
-      <div class="section-header">
-        <h2>Who This Is For</h2>
-      </div>
-      <div class="who-grid">
-        <div class="who-box best">
-          <h3>We work best with:</h3>
-          <ul>
-            <li>PropTech / Real Estate Tech startups</li>
-            <li>5–50 employees</li>
-            <li>Seed to Series A</li>
-            <li>Europe & United States</li>
-            <li>Founders who want speed + clarity</li>
-          </ul>
+        <div class="card">
+          <div class="card-decoration"></div>
+          <div>
+            <h2 class="card-title">Build</h2>
+            <p class="card-description">
+              We design and develop your product, AI agents, automation, and
+              cloud systems with speed, quality, and scalability in mind.
+            </p>
+          </div>
+          <div class="card-slider">
+            <div class="slider-bar filled"></div>
+            <div class="slider-bar empty"></div>
+          </div>
         </div>
 
-        <div class="who-box not">
-          <h3>Not for:</h3>
-          <ul>
-            <li>One-off freelancers</li>
-            <li>Non-technical hobby projects</li>
-            <li>Price-only buyers</li>
-          </ul>
+        <div class="card">
+          <div class="card-decoration"></div>
+          <div>
+            <h2 class="card-title">Launch & Optimize</h2>
+            <p class="card-description">
+              We help you launch, attract users, and continuously improve
+              conversion, onboarding, and performance.
+            </p>
+          </div>
+          <div class="card-slider">
+            <div class="slider-bar filled"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -301,6 +488,7 @@
       <p>&copy; 2025 Obayed. All rights reserved.</p>
     </footer>
 
-    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
