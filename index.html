@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <!-- Navigation -->
@@ -79,261 +79,269 @@
     <!-- Services Section -->
     <section class="services" id="services">
       <div class="section-header">
-        <h2>Our Services</h2>
+        <h2 class="mobile-hidden">Our Services</h2>
       </div>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="services-card">
-              <div class="header">
-                <div class="badge">
-                  <div class="badge-icon">
-                    <i class="fa-solid fa-file"></i>
+      <div class="services-slider-container mobile-hidden">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="header">
+                  <div class="badge">
+                    <div class="badge-icon">
+                      <i class="fa-solid fa-file"></i>
+                    </div>
+                    <span class="badge-text">Awaiting Documents</span>
                   </div>
-                  <span class="badge-text">Awaiting Documents</span>
+
+                  <h2 class="title">Go-To-Market (GTM) Strategy</h2>
                 </div>
 
-                <h2 class="title">Go-To-Market (GTM) Strategy</h2>
-              </div>
-
-              <div class="timeline">
-                <div class="timeline-line"></div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
+                <div class="timeline">
+                  <div class="timeline-line"></div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">ICP &amp; positioning</div>
                   </div>
-                  <div class="timeline-title">ICP &amp; positioning</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Messaging &amp; offer design
+                    </div>
                   </div>
-                  <div class="timeline-title">Messaging &amp; offer design</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-file"></i>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Launch &amp; acquisition planning
+                    </div>
                   </div>
-                  <div class="timeline-title">
-                    Launch &amp; acquisition planning
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="timeline-title">Sales funnel setup</div>
                   </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </div>
-                  <div class="timeline-title">Sales funnel setup</div>
-                </div>
-              </div>
-
-              <div class="outcome">
-                <div class="outcome-label">Outcome:</div>
-                <div class="outcome-text">
-                  Clear path from product → customers
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="services-card">
-              <div class="header">
-                <div class="badge">
-                  <div class="badge-icon">
-                    <i class="fa-solid fa-robot"></i>
-                  </div>
-                  <span class="badge-text">Awaiting Documents</span>
                 </div>
 
-                <h2 class="title">AI Agents & Automation</h2>
-              </div>
-
-              <div class="timeline">
-                <div class="timeline-line"></div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
+                <div class="outcome">
+                  <div class="outcome-label">Outcome:</div>
+                  <div class="outcome-text">
+                    Clear path from product → customers
                   </div>
-                  <div class="timeline-title">
-                    AI chat agents (sales, support, onboarding)
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  <div class="timeline-title">
-                    Workflow automation (leads, CRM, ops)
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-file"></i>
-                  </div>
-                  <div class="timeline-title">Internal productivity agents</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </div>
-                  <div class="timeline-title">
-                    Custom AI logic for your product
-                  </div>
-                </div>
-              </div>
-
-              <div class="outcome">
-                <div class="outcome-label">Outcome:</div>
-                <div class="outcome-text">Less manual work. More scale.</div>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="services-card">
-              <div class="header">
-                <div class="badge">
-                  <div class="badge-icon">
-                    <i class="fa-solid fa-cloud"></i>
-                  </div>
-                  <span class="badge-text">Awaiting Documents</span>
-                </div>
-
-                <h2 class="title">Cloud-Based Applications</h2>
-              </div>
-
-              <div class="timeline">
-                <div class="timeline-line"></div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  <div class="timeline-title">Custom CRM systems</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  <div class="timeline-title">Role-based dashboards</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-file"></i>
-                  </div>
-                  <div class="timeline-title">
-                    Internal tools & admin panels
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </div>
-                  <div class="timeline-title">Scalable cloud architecture</div>
-                </div>
-              </div>
-
-              <div class="outcome">
-                <div class="outcome-label">Outcome:</div>
-                <div class="outcome-text">
-                  Systems built for growth, not spreadsheets.
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="services-card">
-              <div class="header">
-                <div class="badge">
-                  <div class="badge-icon">
-                    <i class="fa-brands fa-square-web-awesome"></i>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="header">
+                  <div class="badge">
+                    <div class="badge-icon">
+                      <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <span class="badge-text">Awaiting Documents</span>
                   </div>
-                  <span class="badge-text">Awaiting Documents</span>
+
+                  <h2 class="title">AI Agents & Automation</h2>
                 </div>
 
-                <h2 class="title">Web & Landing Pages</h2>
-              </div>
+                <div class="timeline">
+                  <div class="timeline-line"></div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">
+                      AI chat agents (sales, support, onboarding)
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Workflow automation (leads, CRM, ops)
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Internal productivity agents
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Custom AI logic for your product
+                    </div>
+                  </div>
+                </div>
 
-              <div class="timeline">
-                <div class="timeline-line"></div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  <div class="timeline-title">
-                    Conversion-focused landing pages
-                  </div>
+                <div class="outcome">
+                  <div class="outcome-label">Outcome:</div>
+                  <div class="outcome-text">Less manual work. More scale.</div>
                 </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  <div class="timeline-title">Product websites</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-file"></i>
-                  </div>
-                  <div class="timeline-title">
-                    Lead capture & analytics setup
-                  </div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </div>
-                  <div class="timeline-title">By using A/B testing</div>
-                </div>
-              </div>
-
-              <div class="outcome">
-                <div class="outcome-label">Outcome:</div>
-                <div class="outcome-text">Traffic turns into leads.</div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="services-card">
-              <div class="header">
-                <div class="badge">
-                  <div class="badge-icon">
-                    <i class="fa-solid fa-mobile"></i>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="header">
+                  <div class="badge">
+                    <div class="badge-icon">
+                      <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <span class="badge-text">Awaiting Documents</span>
                   </div>
-                  <span class="badge-text">Awaiting Documents</span>
+
+                  <h2 class="title">Cloud-Based Applications</h2>
                 </div>
 
-                <h2 class="title">Mobile Applications</h2>
+                <div class="timeline">
+                  <div class="timeline-line"></div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">Custom CRM systems</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">Role-based dashboards</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Internal tools & admin panels
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Scalable cloud architecture
+                    </div>
+                  </div>
+                </div>
+
+                <div class="outcome">
+                  <div class="outcome-label">Outcome:</div>
+                  <div class="outcome-text">
+                    Systems built for growth, not spreadsheets.
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="header">
+                  <div class="badge">
+                    <div class="badge-icon">
+                      <i class="fa-brands fa-square-web-awesome"></i>
+                    </div>
+                    <span class="badge-text">Awaiting Documents</span>
+                  </div>
 
-              <div class="timeline">
-                <div class="timeline-line"></div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
-                  </div>
-                  <div class="timeline-title">iOS & Android apps</div>
+                  <h2 class="title">Web & Landing Pages</h2>
                 </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-check"></i>
+
+                <div class="timeline">
+                  <div class="timeline-line"></div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Conversion-focused landing pages
+                    </div>
                   </div>
-                  <div class="timeline-title">User onboarding flows</div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">Product websites</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div class="timeline-title">
+                      Lead capture & analytics setup
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="timeline-title">By using A/B testing</div>
+                  </div>
                 </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-file"></i>
-                  </div>
-                  <div class="timeline-title">API-first architecture</div>
-                </div>
-                <div class="timeline-item">
-                  <div class="timeline-icon completed">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </div>
-                  <div class="timeline-title">Cross-Platform Foundations</div>
+
+                <div class="outcome">
+                  <div class="outcome-label">Outcome:</div>
+                  <div class="outcome-text">Traffic turns into leads.</div>
                 </div>
               </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="services-card">
+                <div class="header">
+                  <div class="badge">
+                    <div class="badge-icon">
+                      <i class="fa-solid fa-mobile"></i>
+                    </div>
+                    <span class="badge-text">Awaiting Documents</span>
+                  </div>
 
-              <div class="outcome">
-                <div class="outcome-label">Outcome:</div>
-                <div class="outcome-text">
-                  Your product everywhere your users are.
+                  <h2 class="title">Mobile Applications</h2>
+                </div>
+
+                <div class="timeline">
+                  <div class="timeline-line"></div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">iOS & Android apps</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-check"></i>
+                    </div>
+                    <div class="timeline-title">User onboarding flows</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-file"></i>
+                    </div>
+                    <div class="timeline-title">API-first architecture</div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-icon completed">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                    <div class="timeline-title">Cross-Platform Foundations</div>
+                  </div>
+                </div>
+
+                <div class="outcome">
+                  <div class="outcome-label">Outcome:</div>
+                  <div class="outcome-text">
+                    Your product everywhere your users are.
+                  </div>
                 </div>
               </div>
             </div>
@@ -447,26 +455,218 @@
       <div class="section-header">
         <h2>Our Guarantees</h2>
       </div>
-      <div class="guarantees-grid">
-        <div class="guarantee-card">
-          <div class="guarantee-icon">⚡</div>
-          <h3>Execution Guarantee</h3>
-          <p>We ship something usable every sprint</p>
-        </div>
-        <div class="guarantee-card">
-          <div class="guarantee-icon">👁️</div>
-          <h3>Transparency Guarantee</h3>
-          <p>Weekly progress updates</p>
-        </div>
-        <div class="guarantee-card">
-          <div class="guarantee-icon">🔓</div>
-          <h3>No-Lock-In Guarantee</h3>
-          <p>Month-to-month engagement</p>
-        </div>
-        <div class="guarantee-card">
-          <div class="guarantee-icon">💡</div>
-          <h3>Clarity Guarantee</h3>
-          <p>Clear scope, timeline, and outcomes</p>
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">1. Execution Guarantee</h3>
+            <p class="feature-description">
+              Every sprint delivers real, usable output — from landing pages to
+              AI agents and live systems.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">2. Go-To-Market Guarantee</h3>
+            <p class="feature-description">
+              You won't just get a product. You'll get a clear path from build
+              to customers and revenue.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">3. Deliverability Guarantee</h3>
+            <p class="feature-description">
+              Your email infrastructure is set up with dedicated domains, proper
+              authentication, and warm-up so your messages reach inboxes.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">4. Lead Quality Guarantee</h3>
+            <p class="feature-description">
+              We only target verified PropTech decision-makers — founders,
+              product leaders, and growth teams.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 2H4c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM8 20H4v-4h4v4zm0-6H4v-4h4v4zm0-6H4V4h4v4zm6 12h-4v-4h4v4zm0-6h-4v-4h4v4zm0-6h-4V4h4v4zm6 12h-4v-4h4v4zm0-6h-4v-4h4v4zm0-6h-4V4h4v4z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">5. AI & Automation Guarantee</h3>
+            <p class="feature-description">
+              Every system we build is designed to reduce manual work and
+              increase speed, efficiency, and scale.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">6. Transparency Guarantee</h3>
+            <p class="feature-description">
+              You receive weekly updates with clear progress, metrics, and next
+              steps — no black boxes.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M12 15c.55 0 1-.45 1-1s-.45-1-1-1-1 .45-1 1 .45 1 1 1z"
+                    fill="currentColor"
+                  />
+                  <line
+                    x1="18"
+                    y1="8"
+                    x2="6"
+                    y2="8"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">7. No-Lock-In Guarantee</h3>
+            <p class="feature-description">
+              Work month-to-month. Stay because it works, not because you're
+              locked in.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">8. Clarity Guarantee</h3>
+            <p class="feature-description">
+              Before we start, you know exactly what's being built, how long it
+              will take, and what to expect.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="icon-wrapper">
+              <div class="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"
+                    fill="currentColor"
+                  />
+                  <circle cx="12" cy="12" r="2" fill="currentColor" />
+                </svg>
+              </div>
+            </div>
+            <h3 class="feature-title">9. Growth Focus Guarantee</h3>
+            <p class="feature-description">
+              Everything we build is measured by one thing: does it help you get
+              more users, leads, or revenue?
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -489,6 +689,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
